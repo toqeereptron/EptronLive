@@ -1,0 +1,635 @@
+/* COLOUR REFERENCES
+
+Green:		#A0C236
+Light Gray:	#DDE2E5
+Dark Gray:  #6D6D6D
+Blue:		#00C7CE
+Dark Pink:	#D74C66
+
+*/
+
+/* ==== GENERAL ==== */
+
+body {
+	margin-top: 30px;
+	font-family:"proxima-nova", "bebas Neue", Helvetica;
+	font-size: 16px;
+	background: url('../img/tile.jpg') top left repeat;
+}
+
+/* ==== GLOBAL ==== */
+
+h1,h2,h3,h4,h5,h6 {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-weight: bold;
+	font-family: "proxima Nova Alt Lt", "bebas Neue", Helvetica;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h1,h2 {
+	margin: 0 0 40px;
+}
+
+h3 {
+	margin: 20px 0;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+p.lead {
+	font-weight: normal;
+}
+
+p {
+	margin: 0 0 15px;
+}
+
+a:link, a:visited {
+	color: #dd5638;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #c9302c;
+}
+
+blockquote {
+	padding: 0;
+	border: none;
+	font-style: italic;
+	text-align: left;
+}
+
+blockquote cite {
+	display: block;
+	color: #777;
+	margin: 15px 0 0 0;
+}
+
+blockquote:before {
+	display: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+button, input, .btn, a.btn {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	color: white;
+}
+
+.btn {
+	font-weight: bold;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.btn-success {
+	background: #79b044;
+	border: none;
+}
+
+.btn-success:hover {
+	background: #6a9b3d;
+	border-color: #6a9b3d;
+}
+
+.btn-danger {
+	background-color: #dd5638;
+	border-color: #d95131;
+}
+ul{
+	padding: 0;
+	margin: 0;	
+}
+ul li{
+	list-style-type: none;
+}
+
+
+/* Header
+   ================================================== */
+
+.social_links{
+	
+}
+.social_links a{
+	display: inline-block;
+	margin-right: 15px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 22px;
+	text-indent: -9999px;
+	width: 22px;
+}
+.social_links a:hover{
+	
+}
+.social_links a.fb{
+	background-image: url(../img/icon-fb.png);
+	width: 12px;
+}
+.social_links a.tw{
+	background-image: url(../img/icon-tw.png);
+}
+.social_links a.yt{
+	background-image: url(../img/icon-youtube.png);
+}
+
+/*Top nav bar*/
+.navbar-default{
+	font-family: "proxima Nova Alt Lt", "bebas Neue", Helvetica;
+	text-transform: uppercase;	
+	background: #fff;
+	border: none;
+}
+.navbar-default .navbar-brand{
+	padding-top: 0;
+	padding-bottom: 0;	
+}
+.navbar-default .navbar-nav>li{
+	margin-left: 15px;	
+}
+.navbar-default .navbar-nav>li:first-child{
+	margin-left: 0;	
+}
+.navbar-default .navbar-nav>li>a{
+	height: 50px;
+	font-size: 12px;
+	color: #5D5D5E;
+	background: #fff;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover{
+	background: #A0C236;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover{
+	background: #A0C236;
+	color: #fff;
+}
+.navbar-default .navbar-nav>li>a .caret{
+    display: inline-block;
+    position: relative;
+    border-top: 5px dashed;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    margin-top: -8px;
+}
+.dropdown-menu {
+	left: 50% !important;
+	right: auto !important;
+	text-align: center;
+	transform: translate(-50%, 0);
+}
+.navbar-nav>li>.dropdown-menu{
+	background: #6D6D6D;
+	color: #fff;	
+	border-radius: 0;
+	box-shadow: none;
+}
+.dropdown-menu>li>a{
+	color: #fff;	
+}
+.dropdown-menu>li>a:hover{
+	background: none;
+	color: #9DBF36;	
+}
+
+/* Hero
+   ================================================== */
+.hero_section{
+	background: #DDE2E5;
+	padding: 70px 0 50px;
+	color: #6D6D6D;
+	font-size: 20px;
+	line-height: 1.5;
+	font-family: "proxima Nova Alt Lt", "bebas Neue", Helvetica;
+}
+.hero_section .slider_container ul{
+	
+}
+.hero_section .slider_container .left_sec{
+	width: 50%;	
+	float: left;
+	padding-right: 70px;
+}
+.hero_section .slider_container .left_sec h2{
+	font-size: 36px;
+	color: #A0C236;
+	text-transform: uppercase;
+	font-family: "bebas Neue", Tahoma;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+.hero_section .slider_container .left_sec p{
+	
+}
+.hero_section .slider_container .left_sec .btn_cont{
+	margin-top: 40px;	
+}
+.hero_section .slider_container .left_sec .btn_cont a{
+	font-size: 18px;
+	font-family: "proxima Nova Alt Lt", "bebas Neue", Helvetica;
+	text-transform: uppercase;
+	color: #fff;
+	background: #A0C236;
+	padding: 10px 30px;
+	display: inline-block;
+}
+.hero_section .slider_container .right_sec{
+	width: 50%;	
+	float: right;
+}
+
+
+/* What we do
+   ================================================== */
+
+.what_we_do{
+	font-family: "bebas Neue", Tahoma;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #808080;
+	margin-top: 100px;
+	background: #DDE2E5;
+}
+.what_we_do .services{
+	text-align: center;
+	position: relative;
+	top: -65px;
+}
+.what_we_do .services .img_cont{
+	width: 130px;
+	height: 130px;
+	border-radius: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #A0C236;
+	display: inline-block;
+}
+.what_we_do .services.testing .img_cont{
+	background-image: url(../img/testing.png);
+}
+.what_we_do .services.development .img_cont{
+	background-image: url(../img/development.png);
+	background-color: #00C7CE;
+}
+.what_we_do .services.graphic .img_cont{
+	background-image: url(../img/graphic-design.png);
+	background-color: #D74C66;
+}
+.what_we_do .services h4{
+	font-weight: 400;	
+}
+.what_we_do .services h4 a{
+	font-family: "bebas Neue", Tahoma;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #808080;
+}
+
+/* Review
+   ================================================== */
+
+.reviews{
+	height: 420px;
+	background: url(../img/success.png) center bottom no-repeat #6D6D6D;
+	background-size: cover;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.reviews .container{
+	background: url(../img/people-icon.png) center top no-repeat;
+}
+.reviews h3{
+	font-size: 34px;
+	font-weight: 400;
+	font-family: "bebas Neue", Tahoma;
+	text-transform: uppercase;
+	padding-left: 10px;
+	padding-right: 15px;
+	border-bottom: 1px solid #fff;
+	margin-top: 60px;
+	display: inline-block;
+}
+.reviews .review_slide_cont{
+
+}
+.reviews .review_slide_cont .logo_area{
+	width: 84px;
+	height: 84px;
+	padding: 5px;
+	display: inline-block;
+	background: #fff;
+	border-radius: 100%;	
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.reviews .review_slide_cont .logo_area img{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.reviews .review_slide_cont .review{
+	font-size: 16px;
+	line-height: 1.3;
+}
+.reviews .review_slide_cont .review p{
+	font-family: "proxima Nova Alt Lt", "bebas Neue", Helvetica;
+}
+.reviews .review_slide_cont .review p.review_by{
+	color: #A0C236;
+}
+
+/* From Blog
+   ================================================== */
+.from_blog{
+	background: url(../img/wires.png) center center no-repeat #fff;
+	padding-top: 40px;
+}
+.from_blog h3{
+	margin-bottom: 50px;
+	display: inline-block;
+	font-family: "bebas Neue", Tahoma;
+	font-size: 40px;
+	color: #808080;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: .5;
+}
+.from_blog h3 span{
+	display: inline-block;
+	height: 2px;
+	background: #A0C236;
+	width: 80%;
+}
+.post_slider_cont{
+
+}
+.post_slider_cont .post_container{
+	height: 330px;
+}
+.post_slider_cont .post_img{
+	width: 50%;
+	overflow: hidden;
+	height: 100%;
+}
+.post_slider_cont .post_img img{
+	
+}
+.post_slider_cont .post_detail{
+	width: 50%;
+	background: #DDE2E5;
+	height: 100%;
+	text-align: left;
+	position: relative;
+	padding: 140px 0 20px 70px;
+}
+.post_slider_cont .post_detail::before{
+	content: "";
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-top: -40px;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;	
+	border-right: 30px solid #DDE2E5;
+	position: absolute;
+	left: -30px;
+	top: 50%;
+}
+.post_slider_cont .post_detail p.post_date{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 15px 15px;
+	background: #A0C236;
+	color: #fff;
+	font-family: "bebas Neue", Tahoma;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+}
+.post_slider_cont .post_detail h4{
+	color: #A0C236;
+	font-size: 32px;
+	font-family: "bebas Neue", Tahoma;
+	line-height: 1;
+	font-weight: 400;
+}
+.post_slider_cont .post_detail a{
+	padding-right: 30px;
+	color: #6D6D6D;
+	font-family: "proxima Nova Alt Lt", "bebas Neue", Helvetica;
+	font-size: 10px;
+	background:url(../img/read-more.png) right center no-repeat;
+	text-transform: uppercase;
+}
+.post_slider_cont .post_detail.pull-left{
+	background: #A0C236;
+	color: #fff;
+}
+.post_slider_cont .post_detail.pull-left h4{
+	color: #fff;
+}
+.post_slider_cont .post_detail.pull-left  p.post_date{
+	color: #A0C236;
+	background: #fff;
+}
+.post_slider_cont .post_detail.pull-left::before{
+	content: "";
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-top: -40px;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;	
+	border-left: 30px solid #A0C236;
+	border-right: none;
+	position: absolute;
+	right: -30px;
+	left: inherit;
+	top: 50%;
+}
+
+/* Clients
+   ================================================== */
+.clients{
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 30px;
+}
+.clients h3{
+	margin-bottom: 50px;
+	display: inline-block;
+	font-family: "bebas Neue", Tahoma;
+	font-size: 40px;
+	color: #808080;
+	text-transform: uppercase;
+	font-weight: 400;
+	line-height: .5;
+}
+.clients h3 span{
+	display: inline-block;
+	height: 2px;
+	background: #A0C236;
+	width: 80%;
+}
+.clients .client_slider_cont{
+	height: 120px;
+}
+.clients .client_slider_cont li{
+	width: 23%;
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+	height: 125px;
+}
+.clients .client_slider_cont li img{
+	height: 100%;
+	width: auto;
+	display: inline-block;
+}
+
+/* Contact Us
+   ================================================== */
+
+.contact_us{
+	
+}
+.contact_us h3{
+	font-size: 41px;
+	color: #fff;
+	font-family: "bebas Neue", Tahoma;
+	font-weight: normal;
+	background: #6D6D6D;
+	text-align: center;
+	margin-bottom: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	position: relative;
+}
+.contact_us h3 span{
+	color: #A0C236;
+}
+.contact_us h3 span.arrow_down{
+	position: absolute;
+	bottom: -30px;
+	left: 50%;
+	width: 0;
+	height: 0;
+	margin-left: -25px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 30px solid #6D6D6D;
+	display: inline-block;
+}
+.contact_us .google_map_section{
+	height: 400px;
+	background: url(../img/map-01.png) left center no-repeat;
+	background-size: cover;
+}
+
+.contact_us .contact_details{
+	background: url(../img/wires.png) center center no-repeat #DDE2E5;
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.contact_us .contact_details .address_detail{
+	
+}
+.contact_us .contact_details .address_detail h4{
+	font-size: 24px;
+	font-family: "proxima Nova Alt Lt", "bebas Neue", Helvetica;
+	font-weight: normal;
+	color: #6D6D6D;
+	text-transform: uppercase;
+}
+.contact_us .contact_details .address_detail h4 span{
+	color: #A0C236;
+}
+.contact_us .contact_details .address_detail p{
+	font-size: 15px;
+	font-weight: 300;
+	color: #6D6D6D;
+	font-family: "proxima Nova Alt Lt", "bebas Neue", Helvetica;
+	position: relative;
+	padding-left: 50px;
+	min-height: 30px;
+}
+.contact_us .contact_details .address_detail p span{
+	background-color: #A0C236;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	display: inline-block;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -15px;
+}
+.contact_us .contact_details .address_detail p.location span{
+	background-image: url(../img/address-location.png); 
+}
+.contact_us .contact_details .address_detail p.phone span{
+	background-image: url(../img/address-phone.png);
+}
+.contact_us .contact_details .address_detail p.email span{
+	background-image: url(../img/address-mail.png);
+}
+.contact_us .contact_details .contact_form{
+	
+}
+.contact_us .contact_details .contact_form input[type=text],
+.contact_us .contact_details .contact_form input[type=email]{
+	border-radius: 0;
+	background: #6D6D6D;
+	color: #fff;
+	font-family: "proxima Nova Alt Lt", "bebas Neue", Helvetica;
+	font-size: 11px;
+}
+.contact_us .contact_details .contact_form textarea{
+	border-radius: 0;
+	background: #6D6D6D;
+	color: #fff;
+	font-family: "proxima Nova Alt Lt", "bebas Neue", Helvetica;
+	font-size: 11px;
+}
+.contact_us .contact_details .contact_form button.btn-success{
+	border-radius: 0;
+	background: #A0C236;
+	color: #fff;
+	font-family: "proxima Nova Alt Lt", "bebas Neue", Helvetica;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+
+/* ==================================================
+                    Products Page
+===================================================== */
+
+
+   
+   
